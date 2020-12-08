@@ -1,0 +1,38 @@
+<?php
+$jsonString = '{
+   "kind":"youtube#searchResult",
+   "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/8-bgJHJiyyR_WC9sOsQgkrhzDv4\"",
+   "id":{
+      "kind":"youtube#video",
+      "videoId":"an0JKXnnrAY"
+   },
+   "snippet":{
+      "publishedAt":"2019-10-10T14:00:00.000Z",
+      "channelId":"UCwTRjvjVge51X-ILJ4i22ew",
+      "title":"TONES &amp; I - DANCE MONKEY (Karaoke Version)",
+      "description":"Karaoke sing along of “DANCE MONKEY” by TONES & I from Sing King Karaoke Stay tuned for brand new karaoke videos by subscribing here: ...",
+      "thumbnails":{
+         "default":{
+            "url":"https://i.ytimg.com/vi/an0JKXnnrAY/default.jpg",
+            "width":120,
+            "height":90
+         },
+         "medium":{
+            "url":"https://i.ytimg.com/vi/an0JKXnnrAY/mqdefault.jpg",
+            "width":320,
+            "height":180
+         },
+         "high":{
+            "url":"https://i.ytimg.com/vi/an0JKXnnrAY/hqdefault.jpg",
+            "width":480,
+            "height":360
+         }
+      },
+      "channelTitle":"Sing King",
+      "liveBroadcastContent":"none"
+   }
+}';
+
+echo json_encode($jsonString);
+
+?>
